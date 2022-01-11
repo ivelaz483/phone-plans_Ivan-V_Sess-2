@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="pplan.css">
+    <script src="pplan.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    var plan1 = {
+        name="Standard",
+        price: 99.99,
+        space: 100,
+        transfer: 1000,
+    };
+
+    
+    var plan2 = {
+        name="Premium",
+        price: 199.99,
+        space: 500,
+        transfer: 5000,
+    };
+
+    
+    var plan3 = {
+        name="Ultimate",
+        price: 299.99,
+        space: 2000,
+        transfer: 20000,
+       
+    };
+        </script>
+
+<div class="navbar">
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Support</a>
+  </div>
+
+  <h1 id="header"> All Plans & Prices </h1>
+
+  <div class="flex-container"> 
+      
+    <div class="plan1">
+    <h1 id=header2>Standard</h2>
+    <p style="font-size: 1.5rem;">$99.99</p>
+    <p>Per Month</p><br>
+    <p>Space: 50gb</p>
+    <p>Transfer Data: 4g limited</p>
+    <button id="butt" type="button" onclick="Plan();"> Start with Standard </button>
+  <br>   
+    </div>
+      
+    <div class=plan2>
+    <h1 id=header2>Premium</h2>
+    <p style="font-size: 1.5rem;">$199.99</p>
+    <p>Per Month</p><br>
+    <p>Space: 100gb</p>
+    <p>Transfer Data: 4g unlimited</p>
+    <button id="butt2" type="button" onclick="Plan();"> Start with Premium </button>
+    </div>
+        
+    <div class=plan3>
+      <h1 id=header2>Ultimate</h2>
+      <p style="font-size: 1.5rem;">$299.99</p>
+      <p>Per Month</p><br>
+      <p>Space: 300gb</p>
+      <p>Transfer: Data 5g unlimited</p>
+      <button id="butt3" type="button" onclick="Plan();"> Start with Ultimate </button>
+    </div>
+    </div>
+
+    <footer id="foot">
+        All Rights Reserved @ 2021 
+    </footer>
+
+</body>
+</html>
